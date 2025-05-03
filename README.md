@@ -8,7 +8,7 @@ This project uses the **LLaVA model** via Ollama to generate captions for upload
 - Streamlit UI
 
 ## How to Run
-1. Pull model: `ollama pull llava`
+1. Pull model: `ollama pull tinyllama`
 2. Start backend: `uvicorn backend.main:app --reload`
 3. Start frontend: `streamlit run frontend/app.py`
 4. Upload an image and generate captions
